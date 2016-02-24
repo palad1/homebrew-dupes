@@ -77,7 +77,7 @@ class Ncurses < Formula
 
     ln_s [
       "ncursesw/curses.h", "ncursesw/form.h", "ncursesw/ncurses.h",
-      "ncursesw/term.h", "ncursesw/termcap.h"], include
+      "ncursesw/panel.h","ncursesw/term.h", "ncursesw/termcap.h"], include
   end
 
   test do
